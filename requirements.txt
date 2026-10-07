@@ -1,6 +1,7 @@
-streamlit
-langchain
-langchain-groq
-langgraph
-pdfplumber
-python-dotenv
+streamlit>=1.40.0
+langchain>=1.0.0
+langchain-core>=1.0.0
+langchain-groq>=1.1.3
+langgraph>=1.0.0
+pdfplumber>=0.11.0
+python-dotenv>=1.0.0
