@@ -11,7 +11,7 @@ class ScoreOutput(BaseModel):
     reasoning: str
 
 
-_llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
+_llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0)
 _score_llm = _llm.with_structured_output(ScoreOutput)
 
 
